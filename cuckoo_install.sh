@@ -13,7 +13,7 @@
 # This script should be run with sudo
 
 # Install updates
-apt-get update && apt-get upgrade
+apt-get update && apt-get upgrade -y
 
 # Install dependencies
 apt-get install python python-pip python-dev libffi-dev libssl-dev python-virtualenv python-setuptools libjpeg-dev zlib1g-dev swig mongodb postgresql libpq-dev virtualbox tcpdump apparmor-utils
